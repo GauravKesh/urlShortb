@@ -4,8 +4,8 @@
   "description": "This is the backend for URL Shorter",
   "main": ".src/server.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
-    "start": "node dist/index.js",
+    "dev": "nodemon ./src/server.ts",
+    "start": "node dist/server.js",
     "dist": "npx tsc",
     "prepare": "husky"
   },
